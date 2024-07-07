@@ -1,7 +1,10 @@
-baseURL: "https://examplesite.com/"
-title: ExampleSite
+baseURL: https://shrimansoft.github.io/published-work
+title: Shriman Keshri
 paginate: 5
 theme: PaperMod
+
+canonifyURLs: true
+
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -117,7 +120,7 @@ outputs:
     - HTML
     - RSS
     - JSON # necessary for search
-    
+
 menu:
   main:
     - identifier: categories
