@@ -3,9 +3,9 @@ title: Shriman Keshri
 paginate: 5
 theme: PaperMod
 
-relativeRULs: true
+#relativeRULs: true
 
-# canonifyURLs: true
+canonifyURLs: true
 
 
 enableRobotsTXT: true
@@ -127,19 +127,19 @@ menu:
   main:
     - identifier: categories
       name: categories
-      url: /categories/
+      url: categories/
       weight: 10
     - identifier: tags
       name: tags
-      url: /tags/
+      url: tags/
       weight: 20
     - identifier: search
       name: Search
-      url: /search/
+      url: search/
       weight: 20
     - identifier: archive
       name: Archive
-      url: /archives/
+      url: archives/
       weight: 20
     - identifier: example
       name: example.org
