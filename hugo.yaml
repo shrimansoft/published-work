@@ -3,7 +3,9 @@ title: Shriman Keshri
 paginate: 5
 theme: PaperMod
 
-canonifyURLs: true
+relativeRULs: true
+
+# canonifyURLs: true
 
 
 enableRobotsTXT: true
